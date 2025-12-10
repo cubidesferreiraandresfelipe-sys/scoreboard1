@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="tablero">
+      <div id="local">
+        <h2 class="fuente-equipos">LOCAL</h2>
+        <h1 class="puntaje fuente-reloj" id="puntaje-local">0</h1>
+        <button class="fuente-reloj puntaje-btn" onclick="local1()">+1</button>
+        <button class="fuente-reloj puntaje-btn" onclick="local2()">+2</button>
+        <button class="fuente-reloj puntaje-btn" onclick="local3()">+3</button>
+      </div>
+      <div id="reiniciar">
+        <button id="reiniciar-btn" onclick="reiniciar()">Reiniciar</button>
+      </div>
+      <div id="visitante">
+        <h2 class="fuente-equipos">VISITANTE</h2>
+        <h1 class="puntaje fuente-reloj" id="puntaje-visitante">0</h1>
+        <button class="fuente-reloj puntaje-btn" onclick="visitante1()">
+          +1
+        </button>
+        <button class="fuente-reloj puntaje-btn" onclick="visitante2()">
+          +2
+        </button>
+        <button class="fuente-reloj puntaje-btn" onclick="visitante3()">
+          +3
+        </button>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background: black;
+}
+
+@font-face {
+    font-family: "cursed-timer";
+    src: url("fuente/CursedTimerULiL.ttf") format("truetype");
+}
+
+.fuente-equipos {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 750;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-size: 50px;
+    color: #f6f5f5;
+    margin-bottom: 10px;
+}
+
+.fuente-reloj {
+    font-family: "cursed-timer";
+}
+
+#tablero {
+    margin-top: 100px;
+    display: flex;
+    width: 700px;
+    height: 400px;
+    justify-content: space-around;
+    background: #19234c;
+    border: 6px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.puntaje-btn {
+    background: #19234c;
+    color: #9da5c5;
+    border: 1px solid #9da5c5;
+    font-size: 17px;
+    padding: 13px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.puntaje {
+    font-size: 100px;
+    color: #f94f6d;
+    margin: 10px auto 30px;
+    background: black;
+    padding: 10px 0 15px;
+    width: 200px;
+}
+
+#local,
+#visitante {
+    text-align: center;
+    width: 300px;
+}
+
+#reiniciar {
+    display: flex;
+    align-items: center;
+}
+
+#reiniciar-btn {
+    font-family: Verdana, sans-serif;
+    height: 50px;
+    background: #111827;
+    color: white;
+    padding: 0 15px;
+    border: 2px solid #f94f6d;
+    border-radius: 8px;
+    cursor: pointer;
+}
